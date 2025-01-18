@@ -28,13 +28,13 @@
     background-color: #2A77AE;
     color: white;
     animation-name: slit-out-horizontal;
-    animation-duration: 1s;
+    animation-duration: 10s;
 }
 
 .pending {
     color: white;
     animation-name: color-change-4x;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
