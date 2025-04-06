@@ -4,22 +4,13 @@ import CardContainer from "./components/CardContainer";
 import Instructions from "./components/Instructions";
 import FlashCard from "./components/FlashCard";
 import AnswerCard from "./components/AnswerCard";
-const initCardsArr = [
-  ["ㄱ", "g/k"], // Giyeok
-  ["ㄴ", "n"],   // Nieun
-  ["ㄷ", "d/t"], // Digeut
-  ["ㄹ", "r/l"], // Rieul
-  ["ㅁ", "m"],   // Mieum
-  ["ㅂ", "b/p"], // Bieup
-  ["ㅅ", "s"],   // Siot
-  ["ㅇ", "ng"],  // Ieung (khusus "ng" di akhir, kosong di awal)
-  ["ㅈ", "j/ch"],// Jieut
-  ["ㅊ", "ch"],  // Chieut
-  ["ㅋ", "k"],   // Kieuk
-  ["ㅌ", "t"],   // Tieut
-  ["ㅍ", "p"],   // Pieup
-  ["ㅎ", "h"],   // Hieut
-];
+const initCardsArr = [["あ", "a"], ["い", "i"], ["う", "u"], ["え", "e"], ["お", "o"],
+["か", "ka"], ["き", "ki"], ["く", "ku"], ["け", "ke"], ["こ", "ko"],
+["さ", "sa"], ["し", "shi"], ["す", "su"], ["せ", "se"], ["そ", "so"],
+["た", "ta"], ["ち", "chi"], ["つ", "tsu"], ["て", "te"], ["と", "to"],
+["な", "na"], ["に", "ni"], ["ぬ", "nu"], ["ね", "ne"], ["の", "no"], ["ん", "n"],
+["は", "ha"], ["ひ", "hi"], ["ふ", "fu"], ["へ", "he"], ["ほ", "ho"],];
+
 
 let unshuffledHiraArr = [];
 let unshuffledEnglArr = [];
