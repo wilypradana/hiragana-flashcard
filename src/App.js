@@ -4,14 +4,14 @@ import CardContainer from "./components/CardContainer";
 import Instructions from "./components/Instructions";
 import FlashCard from "./components/FlashCard";
 import AnswerCard from "./components/AnswerCard";
-const initCardsArr = [["あ", "a"], ["い", "i"], ["う", "u"], ["え", "e"], ["お", "o"],
-["か", "ka"], ["き", "ki"], ["く", "ku"], ["け", "ke"], ["こ", "ko"],
-["さ", "sa"], ["し", "shi"], ["す", "su"], ["せ", "se"], ["そ", "so"],
-["た", "ta"], ["ち", "chi"], ["つ", "tsu"], ["て", "te"], ["と", "to"],
-["な", "na"], ["に", "ni"], ["ぬ", "nu"], ["ね", "ne"], ["の", "no"], ["ん", "n"],
-["は", "ha"], ["ひ", "hi"], ["ふ", "fu"], ["へ", "he"], ["ほ", "ho"],];
-
-
+const initCardsArr = [
+  ["ㄱ", "Giyuk"],
+  ["ㄴ", "Nieun"],
+  ["ㄷ", "Digeut"],
+  ["ㄹ", "Rieul"],
+  ["ㅁ", "Mieum"],
+  ["ㅂ", "Bieup"]
+];
 let unshuffledHiraArr = [];
 let unshuffledEnglArr = [];
 
