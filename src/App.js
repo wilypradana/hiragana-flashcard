@@ -5,12 +5,16 @@ import Instructions from "./components/Instructions";
 import FlashCard from "./components/FlashCard";
 import AnswerCard from "./components/AnswerCard";
 const initCardsArr = [
-  ["ㄱ", "Giyuk"],
-  ["ㄴ", "Nieun"],
-  ["ㄷ", "Digeut"],
-  ["ㄹ", "Rieul"],
-  ["ㅁ", "Mieum"],
-  ["ㅂ", "Bieup"]
+  ["머리", "head"],
+  ["나무", "tree"],
+  ["바다", "sea"],
+  ["우리", "we"],
+  ["두부", "tofu"],
+  ["라디오", "radio"],
+   ["비", "rainny"],
+  ["어마니", "mother"],
+  ["미리", "go ahead"],
+  ["바보", "stupid"],
 ];
 let unshuffledHiraArr = [];
 let unshuffledEnglArr = [];
